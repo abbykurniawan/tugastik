@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #fff8ef;
+    font-family: 'Comfortaa', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: #554c46;
+    border-bottom: 1px solid #eadfd3;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+   background-color: white;
+   border-bottom: 1px solid #eadfd3;
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+
+.topnav a {
+    display: block;
+   color: #554c46;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+   font-size: 14px;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   border-bottom: 3px solid transparent;
+   transition: 0.2s ease;
+}
+
+.topnav a:hover {
+   background-color: #f3edf6;
+   color: #765b84;
+   border-bottom-color: #a78ab4;
+}
+
+body{
+    background-image: url(pink\ I\ desighnlovefest.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.info {
+    margin: auto;
+}
+
+.makanan {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-start;
+}
+h2{
+    color: rgb(242, 242, 170);
+    background-color: rgb(249, 176, 149);
+}
+
+h4{
+    color: rgb(242, 242, 170);
+    background-color: rgb(215, 99, 57);
+}
+
+h1{background-color:coral ;
+    color:rgb(242, 242, 170) ;}
+
+    .foto{
+        width: 300px;
+        height: 400px;
+    }
+div.info{
+    background-color: bisque;
+    width: 380px;
+    border-radius: 10%;
+    border: 3px solid rgb(239, 86, 116);
+}
+.foto:hover{
+    width: 300px;
+    height: 400px;
+    background-color: bisque;
+    box-shadow: 15px 15px 10px rgb(69, 32, 25);
+}
+h3{
+    color: coral;
+    background-color: rgb(242, 242, 170) ;
+}
+
+div.info:hover{
+    height: 160px;
+    width: 160 px;
+    background-color: bisque;
+    box-shadow: 15px 15px 10px rgb(69, 32, 25);
+}
+
+.sushi:hover{
+    width: 200px;
+    height: 200px;
+  box-shadow: 15px 15px 10px rgb(69, 32, 25);
+}
+
+.Shihlin:hover{
+    width: 200px;
+    height: 200px;
+  box-shadow: 15px 15px 10px rgb(69, 32, 25);
+}
+
+.wingstop:hover{
+    width: 200px;
+    height: 200px;
+  box-shadow: 15px 15px 10px rgb(69, 32, 25);
+}
+
+.kiwi:hover{
+    width: 200px;
+    height: 200px;
+  box-shadow: 15px 15px 10px rgb(69, 32, 25);
+}
+
+.shrimp:hover{
+    width: 200px;
+    height: 200px;
+  box-shadow: 15px 15px 10px rgb(69, 32, 25);
+}
+
+.sushi{
+    display: flex;
+    gap: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(248, 241, 232);
+}
+
+
+.Shihlin{
+    display: flex;
+    gap: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(248, 241, 232);
+}
+
+.wingstop{
+    display: flex;
+    gap: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(248, 241, 232);
+}
+
+.kiwi{
+    display: flex;
+    gap: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(248, 241, 232);
+}
+
+.shrimp{
+    display: flex;
+    gap: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(248, 241, 232);
+}
+
+
+.makanan {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+
+.picture-row {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pictures {
+    display: flex;
+    gap: 30px;
+    width: max-content;
+    animation: movePictures 15s linear infinite;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.card img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card p {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@keyframes movePictures {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.card img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px dashed rgb(248, 241, 232);
+}
+
+.color-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.color-card {
+    width: 180px;
+    padding: 10px;
+    border: 3px solid #fe8ec2;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(245, 226, 235);
+
+    transition: all 0.4s ease;
+}
+
+.color-card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.color-card p {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.color-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease;
+}
+
+.abby-hover {
+    opacity: 0;
+}
+
+.profile-pic:hover .abby-hover {
+    opacity: 1;
+}
+
+.profile-pic:hover .abby-normal {
+    opacity: 0;
+}
+
+.profile-pic {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/* Blue sea navigation and footer */
+.header,
+.topnav,
+.footer {
+    background: #075985;
+    color: #ffffff;
+    border-color: #67e8f9;
+}
+
+.header h1,
+.footer p {
+    color: #ffffff;
+}
+
+.topnav a {
+    color: #e0f2fe;
+}
+
+.topnav a:hover {
+    background-color: rgba(103, 232, 249, 0.25);
+    color: #ffffff;
+    border-bottom-color: #67e8f9;
+}
